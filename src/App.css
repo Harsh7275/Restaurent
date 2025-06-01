@@ -1,0 +1,51 @@
+
+ 
+ /*@keyframes blinkColor {
+  0% {
+    opacity: 1;
+    color: red;
+  }
+  25% {
+    opacity: 1;
+    color: rgb(215, 225, 24);
+  }
+  50% {
+    opacity: 0;
+    color: blue;
+  }
+  75% {
+    opacity: 1;
+    color: green;
+  }
+  100% {
+    opacity: 1;
+    color: rgb(215, 55, 124);
+  }
+}
+*/
+.body{
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.typing-text {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  /*border-right: 2px solid orange;*/
+  animation: typing 3s steps(20) infinite alternate, blink 0.7s infinite;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 15ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
