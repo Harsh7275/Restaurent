@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Import, Menu, X } from "lucide-react";
 import "./App.css";
-import AboutSection from "./components/Aboutsection";
+import AboutSection from "./components/AboutSection";
 import MenuSection from "./components/MenuSection";
 import Reservation from "./components/Reservation";
 import Contact from "./components/Contect";
